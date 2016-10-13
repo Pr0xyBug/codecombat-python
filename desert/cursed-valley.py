@@ -11,5 +11,5 @@ while True:
     
     item = hero.findNearestItem()
     # Take only the items with a "potion" type AND only when your health is less than a quarter of the maxHealth.
-    if hero.health < hero.maxHealth * .30 and item and item.type == "potion":
+    if hero.health < hero.maxHealth * .35 and item and item.type == "potion":
         hero.moveXY(item.pos.x, item.pos.y)

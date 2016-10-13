@@ -1,7 +1,5 @@
-# It's too hot out here! Every second you will lose health.
-# You need to kill 3 enemy skeletons.
-# You can only drink one potion. Choose your time wisely.
-# Graverobbing is bad luck! Do not steal the coins.
+# For the maxHealth you can use Multiplication with
+# a decimal value or Division with an integer like 7.
 
 while True:
     enemy = hero.findNearestEnemy()
